@@ -1,0 +1,257 @@
+/* body {
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background-color: rgb(149, 149, 150);
+    border-radius: 15px;
+}
+
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button{
+    float: right;
+    background: #555;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.sucess{
+    background: #2bff84;
+    color: #1ca149;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.su{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.su:hover{
+    text-decoration: underline;
+} */
+
+/* Login Page Styling */
+body.login-body   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 100%;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(149, 149, 150, 100%);
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+form .form-control {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+}
+
+.text-primary {
+    text-decoration: none;
+}
+
+.text-primary:hover {
+    text-decoration: underline;
+}
+
+/* Custom Styles for Sidebar and Navbar */
+.bg-teal {
+    background-color: #008080;
+  }
+  
+  .sidebar-heading {
+    background-color: #48b6a3;
+    
+  }
+  
+  .list-group-item.bg-teal {
+    background-color: #48b6a3;
+  }
+  
+  .list-group-item.bg-teal:hover {
+    background-color: #005b5b;
+  }
+  
+  .vh-100 {
+    height: 100vh;
+  }
+  
+  .navbar input.form-control {
+    max-width: 200px;
+  }
+  
+
+  .dropdown-toggle.me-2 {
+    margin-right: 10px; /* Adjust the value as needed */
+  }
+  
+  /* profile start */
+  .mb-1{
+    color: black;
+  }
+
+  .sidebar-container {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: rgba(84, 186, 169, 1); /* Updated color */
+  }
+
+
+  /* student login start */
+
+  body.student-login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.student-login-container {
+    width: 100%;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(149, 149, 150, 100%);
+}
+
+
+/* student navbar and sidebar!!! */
+.bg-teal-student {
+    background-color: #008080;
+}
+
+.sidebar-heading-student {
+    background-color: #48b6a3;
+}
+
+.list-group-item.bg-teal-student {
+    background-color: #48b6a3;
+}
+
+/* .list-group-item.bg-teal-student:hover {
+    background-color: #005b5b; */
+
+
+.vh-100-student {
+    height: 100vh;
+}
+
+.navbar-student input.form-control {
+    max-width: 200px;
+}
+
+.dropdown-toggle-student.me-2 {
+    margin-right: 10px; /* Adjust the value as needed */
+}
+
+/* Profile section for student */
+.mb-1-student {
+    color: black;
+}
+
+.sidebar-container-student {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    background-color: rgba(84, 186, 169, 1); /* Updated color */
+}
+
+/* image header */
+.navbar-brand img {
+    margin-right: 10px; /* Add some space between the logo and other elements */
+}
